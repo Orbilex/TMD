@@ -8,8 +8,7 @@ import { CreatorProvider } from './context/CreatorContext';
 export default function App() {
   return (
     <CreatorProvider>
-      {
-        
+      {   
       }
       <BrowserRouter> {}
         <Routes>
