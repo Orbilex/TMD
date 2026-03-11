@@ -4,13 +4,13 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",               // This runs the actual website
-    "server": "tsx server.ts",   // This runs your Stripe backend
+    "dev": "vite",               
+    "server": "tsx server.ts",  
     "build": "vite build",
     "preview": "vite preview",
     "clean": "rm -rf dist",
     "lint": "tsc --noEmit",
-    "start": "tsx server.ts"     // Updated for production
+    "start": "tsx server.ts"     
   },
   "dependencies": {
     "@google/genai": "^1.29.0",
