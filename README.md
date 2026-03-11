@@ -1,20 +1,45 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 🍩 Treat Me a Donut
 
-# Run and deploy your AI Studio app
+**Treat Me a Donut** is a modern, smooth, and fully functional donation platform built for creators. This project serves as a comprehensive portfolio piece demonstrating a two-sided marketplace flow: from creator onboarding and dashboard management to secure payment processing using Stripe.
 
-This contains everything you need to run your app locally.
+Built by **Michael**.
 
-View your app in AI Studio: https://ai.studio/apps/2fb47075-b94e-4488-bd2a-4006f5d5de4d
+---
 
-## Run Locally
+## ✨ Features
 
-**Prerequisites:**  Node.js
+### 👨‍🎨 For Creators (The /creatordemo Experience)
+- **Multi-step Onboarding:** A polished registration flow including profile setup and simulated Stripe Connect bank linking.
+- **Personalized Dashboard:** A private area for creators to track their donut count, total revenue, and recent supporters.
+- **Dynamic Profile Generation:** Creating an account instantly generates a public-facing donation page with custom branding.
 
+### 🍩 For Supporters (The /demo Experience)
+- **Seamless Payments:** Integrated with **Stripe Elements** for a secure, "on-page" checkout experience—no redirects.
+- **Donut Multipliers:** Interactive UI to choose between 1, 3, or 5 donuts (or a custom amount).
+- **Live Updates:** Payments made on the demo page instantly reflect in the Creator's dashboard stats via React Context.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### 🚀 Technical Highlights
+- **Stripe SDK:** Implementation of `PaymentIntents` and official Stripe React components.
+- **Framer Motion:** Used for micro-interactions, layout transitions, and the "Success" payment state.
+- **Global State Management:** Data persistence using React Context and LocalStorage to simulate a backend experience.
+- **Responsive Design:** A mobile-first approach using Tailwind CSS with a custom "Tawny" brand palette.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Framework:** [Next.js 14 (App Router)](https://nextjs.org/)
+- **Payments:** [Stripe](https://stripe.com/)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+- **Animations:** [Framer Motion](https://www.framer.com/motion/)
+- **Icons:** [Lucide React](https://lucide.dev/)
+- **Language:** [TypeScript](https://www.typescriptlang.org/)
+
+---
+
+## 🚦 Getting Started
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/your-username/treat-me-a-donut.git
+cd treat-me-a-donut
