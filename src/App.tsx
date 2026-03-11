@@ -11,7 +11,7 @@ export default function App() {
       {/* IMPORTANT: basename tells React Router that your app 
           lives in the /TMD/ subfolder. 
       */}
-      <BrowserRouter basename="/TMD">
+      <BrowserRouter> {}
         <Routes>
           <Route path="/" element={<Landing />} />
           <Route path="/demo" element={<Demo />} />
