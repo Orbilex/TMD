@@ -35,11 +35,24 @@ Built by **Michael**.
 - **Icons:** [Lucide React](https://lucide.dev/)
 - **Language:** [TypeScript](https://www.typescriptlang.org/)
 
+## 💳 Testing the Demo
+This app uses **Stripe Test Mode**. To test the donation flow:
+1. Navigate to the **Creator Demo** and register an account.
+2. Go to your public page.
+3. Use the following test card details:
+   - **Card Number:** `4242 4242 4242 4242`
+   - **Expiry:** Any future date (e.g., `12/30`)
+   - **CVC:** Any 3 digits (e.g., `123`)
+
 ---
 
-## 🚦 Getting Started
+## 🎨 Design System
+- **Primary Color:** Tawny (`#CD5700`)
+- **Secondary Color:** White (`#FFFFFF`)
+- **Background:** Off-White (`#FAFAFA`)
+- **Logo:** A custom rounded rectangle with a hollow donut icon, representing simplicity and treats.
 
-### 1. Clone the repository
-```bash
-git clone https://github.com/your-username/treat-me-a-donut.git
-cd treat-me-a-donut
+---
+
+## 📄 License
+This project is for portfolio purposes. Feel free to use the code to learn how Stripe integrations work!
