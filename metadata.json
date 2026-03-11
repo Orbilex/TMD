@@ -1,0 +1,5 @@
+{
+  "name": "Treat Me a Donut",
+  "description": "A modern 'Buy Me a Coffee' clone using Stripe and Framer Motion.",
+  "requestFramePermissions": []
+}
