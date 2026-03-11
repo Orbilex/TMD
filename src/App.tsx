@@ -8,9 +8,9 @@ import { CreatorProvider } from './context/CreatorContext';
 export default function App() {
   return (
     <CreatorProvider>
-      {/* IMPORTANT: basename tells React Router that your app 
-          lives in the /TMD/ subfolder. 
-      */}
+      {
+        
+      }
       <BrowserRouter> {}
         <Routes>
           <Route path="/" element={<Landing />} />
